@@ -1,0 +1,11 @@
+.animate-pulse-new {
+    transform-origin: left;
+    opacity: 0.3;
+    animation: pulse 1.85s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+    50% {
+        opacity: 0.85;
+    }
+}

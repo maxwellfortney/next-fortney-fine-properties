@@ -1,0 +1,17 @@
+.aTeamMember p:first-of-type {
+    line-height: 1 !important;
+}
+
+.aTeamMember p:last-of-type {
+    line-height: 1.2 !important;
+}
+
+.aTeamMember:hover {
+    transform: translateY(-5px) !important;
+}
+
+@media (max-width: 675px) {
+    .MemberContainer {
+        flex-direction: column !important;
+    }
+}
